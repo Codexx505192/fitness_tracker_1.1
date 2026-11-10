@@ -271,6 +271,45 @@ body {
   .txt_1 {
     font-size: 25px;
   }
+
+  .lst_1{
+    display: none;
+  }
+  
+  .menu_b{
+    display: flex;
+    width: 40px;
+    height: 40px;
+  }
+
+   .header_list.active{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    position: absolute;
+    left: 0; top: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: #0f172a;
+    z-index: 60;
+    list-style: none;
+  }
+
+
+   .itm_menu{
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+  }
+
+  .close{
+    font-size: 35px;
+  }
 }
 
 @media (max-width: 576px) {
