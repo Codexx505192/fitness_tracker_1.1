@@ -315,6 +315,10 @@ body {
   .close{
     font-size: 35px;
   }
+
+  .active-link{
+     color: #60a5fa;
+  }
 }
 
 @media (max-width: 576px) {
@@ -364,6 +368,10 @@ body {
 
   .close{
     font-size: 35px;
+  }
+
+  .active-link{
+     color: #60a5fa;
   }
 }
 
@@ -417,5 +425,9 @@ body {
     text-decoration: none;
     color: white;
     font-size: 30px;
+  }
+
+  .active-link{
+     color: #60a5fa;
   }
 }

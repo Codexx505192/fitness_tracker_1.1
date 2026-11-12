@@ -67,6 +67,16 @@ export default function Header() {
 
             <li>
               <Link 
+                href="/video" 
+                className={`itm_menu ${pathname === '/video' ? 'active-link' : ''}`}
+                onClick={() => setOpenModal(false)}
+              >
+                Video
+              </Link>
+            </li>
+
+            <li>
+              <Link 
                 href="/workouts" 
                 className={`itm_menu ${pathname === '/workouts' ? 'active-link' : ''}`}
                 onClick={() => setOpenModal(false)}
@@ -74,6 +84,7 @@ export default function Header() {
                 Workouts
               </Link>
             </li>
+            
 
             <li>
               <Link 
