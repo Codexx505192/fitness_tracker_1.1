@@ -1,6 +1,7 @@
 .container{
     width: 1200px;
     margin-inline: auto;
+    background-color: aqua;
 }
 
 .vodeo_bi{
@@ -60,6 +61,7 @@
 @media (max-width: 1200px) {
     .container{
         width: 900px;
+        background-color: coral;
     }
 }
 
@@ -83,10 +85,10 @@
     }
 
 
-    .video_itm {
-    width: 429px;
-    height: 280px;
-}
+     .video_itm {
+    width: 349px;
+    height: 250px;
+    } 
 }
 
 @media (max-width: 576px) {
@@ -96,10 +98,12 @@
     }
 
 
-    .video_itm {
-    width: 399px;
+   
+
+ .video_itm {
+    width: 340px;
     height: 280px;
-}
+    }
 }
 
 @media (max-width: 375px) {
@@ -110,7 +114,7 @@
 
 
    .video_itm {
-    width: 330px;
+    width: 305px;
     height: 228px;
     }
 }
