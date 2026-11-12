@@ -1,7 +1,6 @@
 .container{
     width: 1200px;
     margin-inline: auto;
-    background-color: aqua;
 }
 
 .vodeo_bi{
@@ -61,7 +60,6 @@
 @media (max-width: 1200px) {
     .container{
         width: 900px;
-        background-color: coral;
     }
 }
 
