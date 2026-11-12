@@ -249,6 +249,11 @@ body {
   display: none;
 }
 
+.active-link{
+  color: #60a5fa;
+}
+
+
 
 @media (max-width: 1200px) {
   .container{

@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import { Plus, CheckCircle, Dumbbell } from 'lucide-react';
 import { useLocalStorage } from "@/hooks/useLocalStorage";
 import Header from "@/components/Header/Header";
-import Head from 'next/head';
+
 
 export default function Home() {
   const [exercises, setExercises] = useLocalStorage('today_workout', []);
