@@ -1,0 +1,32 @@
+
+
+@media (max-width: 1200px) {
+    .container_404{
+        width: 900px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container_404{
+        width: 700px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container_404{
+        width: 500px;
+    }
+}
+
+@media (max-width: 576px) {
+    .container_404{
+        width: 100%;
+    }
+}
+
+@media (max-width: 375px) {
+    .container_404{
+        width: 100%;
+        padding: 0 4px;
+    }
+}
