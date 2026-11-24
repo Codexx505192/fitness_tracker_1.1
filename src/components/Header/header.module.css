@@ -1,0 +1,9 @@
+.logoClassic {
+  font-weight: 700;
+}
+
+.logoNewYear {
+  font-weight: 700;
+  color: #d62828;
+  text-shadow: 0 0 8px rgba(255, 215, 0, 0.45);
+}

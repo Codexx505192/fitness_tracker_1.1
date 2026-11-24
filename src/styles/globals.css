@@ -261,6 +261,34 @@ body {
     height: 100vh;
 }
 
+
+.logoClassic {
+  font-weight: 700;
+}
+
+.logoNewYear {
+  font-weight: 700;
+  color: #d62828;
+  text-shadow: 0 0 8px rgba(255, 215, 0, 0.45);
+}
+
+
+.lst_itm{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.itm_1{
+  width: 40px;
+  height: 40px;
+}
+
+.itm_1 img{
+  width: 100%;
+  height: 100%;
+}
+
 .error{
     font-size: 90px;
     color: white;
@@ -289,6 +317,16 @@ body {
   .container{
     width: 700px;
   }
+
+  .txt_1 {
+    font-size: 17px;
+}
+
+
+.itm_1 {
+    width: 20px;
+    height: 20px;
+}
 }
 
 
