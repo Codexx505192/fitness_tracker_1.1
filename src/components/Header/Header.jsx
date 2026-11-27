@@ -152,7 +152,8 @@ export default function Header() {
           </ul>
 
           <div className="menu_b" onClick={() => setOpenModal(!openModal)}>
-            <img src="/icons/menu.png" alt="menu" />
+            {/* <img src="/icons/menu.png" alt="menu" />/ */}
+            <img src="/icons/menu_white.png" alt="menu" />
           </div>
         </div>
       </div>
